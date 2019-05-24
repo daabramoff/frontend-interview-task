@@ -7,7 +7,7 @@ class Parking {
     this.placesCount = placesCount;
     this.initData();
     this.renderTable();
-    this.driveInButton.onclick = this.park;
+    this.parkButton.onclick = this.park;
   }
 
   initData = () => {

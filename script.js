@@ -1,13 +1,13 @@
 class Parking {
   data = [];
-  driveInButton = document.getElementById('driveIn');
-  driveOutButton = document.getElementById('driveOut');
+  parkButton = document.getElementById('park');
+  leaveButton = document.getElementById('leave');
 
   constructor(placesCount) {
     this.placesCount = placesCount;
     this.initData();
     this.renderTable();
-    this.driveInButton.onclick = this.driveIn;
+    this.parkButton.onclick = this.park;
   }
 
   initData = () => {
@@ -35,7 +35,7 @@ class Parking {
       },0)
   }
 
-  driveIn = () => {
+  park = () => {
 
   }
 

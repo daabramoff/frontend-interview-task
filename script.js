@@ -1,7 +1,7 @@
 class Parking {
   data = [];
-  driveInButton = document.getElementById('driveIn');
-  driveOutButton = document.getElementById('driveOut');
+  driveInButton = document.getElementById('park');
+  driveOutButton = document.getElementById('leave');
 
   constructor(placesCount) {
     this.placesCount = placesCount;

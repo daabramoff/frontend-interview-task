@@ -1,0 +1,49 @@
+.main {
+  max-width: 1280px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 30px;
+}
+
+.table {
+  border-collapse: collapse;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.table th, .table td {
+  border: 1px solid rgb(105, 105, 105);
+  padding: 5px 15px;
+}
+
+.info {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.btn {
+  padding: 15px 30px;
+  background-color: rgb(143, 205, 92);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn.primary {
+  background-color: dodgerblue;
+}
+
+.error {
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: 1px solid #e04f3b;
+  color: #e04f3b;
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}

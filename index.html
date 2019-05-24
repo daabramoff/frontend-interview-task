@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Парковка</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>
+            Номер парковочного места
+          </th>
+          <th>
+            Занято/свободно
+          </th>
+        </tr>
+      </thead>
+      <tbody id='parkingTable'>
+      </tbody>
+    </table>
+
+    <div class="info">
+      <b>Количество свободных машиномест:</b>
+      <span>0</span>
+    </div>
+    <div class="info">
+      <b>Количество всех машиномест:<b>
+      <span>0</span>
+    </div>
+
+    <button id="driveIn" class="btn">
+      Приезд машины
+    </button>
+    <button id="driveOut" class="btn primary">
+      Отъезд машины
+    </button>
+
+    <!-- Ошибку нужно выводить, когда происходит повторный клик на Приезд машины,
+       при заполненной парковке, и скрывать, когда машины выезжают  -->
+    <div class="error hidden">
+      Парковка полностью заполнена
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
